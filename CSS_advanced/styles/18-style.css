@@ -7,7 +7,7 @@
     --nav-item-font-size: var(--font-size-medium);
     --nav-item-letter-spacing: 4%;
     --nav-item-display: inline-block;
-    --nav-item-margin: 0 0 3em 0;  /* 3 times the root element on the bottom, 0 elsewhere */
+    --nav-item-margin: 0 0 3em 0; /* 3 times the root element on the bottom, 0 elsewhere */
     --nav-item-link-hover: var(--color-primary);
   }
   
@@ -25,7 +25,7 @@
   }
   
   /* Nav Item Class in Nav Class */
-  .nav-item {
+  .nav .nav-item {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
